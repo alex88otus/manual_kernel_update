@@ -1,6 +1,6 @@
 {
   "variables": {
-    "artifact_description": "CentOS 7.7 with kernel 5.x",
+    "artifact_description": "CentOS 7.7 with kernel 5.5.3",
     "artifact_version": "7.7.1908",
     "image_name": "centos-7.7"
   },
@@ -12,7 +12,7 @@
       "vm_name": "packer-centos-vm",
 
       "boot_wait": "10s",
-      "disk_size": "10240",
+      "disk_size": "25000",
       "guest_os_type": "RedHat_64",
       "http_directory": "http",
 
